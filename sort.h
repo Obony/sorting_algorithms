@@ -1,5 +1,5 @@
-#ifndef H
-#define H
+#ifndef SORT_H
+#define SORT_H
 
 #include <stddef.h>
 #include <stdio.h>
@@ -33,7 +33,7 @@ typedef enum bool
 	true = 0,
 	false
 } bool;
-
+void swap_values(int *x, int *z)
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
 void bubble_sort(int *array, size_t size);
@@ -64,4 +64,4 @@ int hoare_partition(int *, size_t, int, int);
 void hoare_sort(int *, size_t, int, int);
 void quick_sort_hoare(int *array, size_t size);
 
-#endif /* H */
+#endif /* SORT_H */
