@@ -1,5 +1,5 @@
 #include "sort.h"
-
+#include <stdbool.h>
 /**
  * bubble_sort - Sorts an array of integers in ascending order using the bubble sort algorithm.
  * @array: The array to sort.
