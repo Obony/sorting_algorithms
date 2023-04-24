@@ -33,7 +33,7 @@ typedef enum bool
 	true = 0,
 	false
 } bool;
-void swap_values(int *x, int *z)
+
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
 void bubble_sort(int *array, size_t size);
