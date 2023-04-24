@@ -4,7 +4,6 @@
 #include <stddef.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdbool.h>
 
 /* Comparison direction macros for bitonic sort */
 #define UP 0
